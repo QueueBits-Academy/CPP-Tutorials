@@ -39,3 +39,9 @@
 
 # Visual Studio Code Settings Directory
 *.vscode/
+
+# Text, data, CSV and binary files
+*.txt
+*.dat
+*.csv
+*.bin
