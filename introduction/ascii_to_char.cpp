@@ -22,11 +22,6 @@ int main()
 	/**
 	 * @brief The while loop below will iterate infinitely until the use explicitly ends the program
 	 * by pressing Ctrl-C or any system dependent shortcut key.
-	 *
-	 * @version 0.1
-	 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-	 * @date 22-05-2023
-	 * @copyright Copyright (c) 2023
 	 */
 	while (true)
 	{
@@ -39,11 +34,6 @@ int main()
 		 * (1) If upper case (65 <= character <= 90), then convert it to lower case (ch + 32);
 		 * (2) If lower case (97 <= character <= 122), then convert it to upper case (ch - 32); otherwise
 		 * (3) Display the error message and continue with the next iteration.
-		 *
-		 * @version 0.1
-		 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-		 * @date 22-05-2023
-		 * @copyright Copyright (c) 2023
 		 */
 		if (ch == '\n')
 			continue;					// Continue with the next iteration without checking the test expression

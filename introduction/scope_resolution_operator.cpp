@@ -19,11 +19,6 @@ using namespace std;
  * for an item within a block (class block, function block or any inner block). The scope resolution
  * operator '::' is used before the identifier of file scope items to access it whenever they are hidden.
  * Otherwise, there's no need to use the scope resolution operator.
- *
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 20-07-2023
- * @copyright Copyright (c) 2023
  */
 const short a = -10; // Global variable with file scope
 
@@ -41,11 +36,6 @@ public:
          * * <class_name>::<[public|private] member>.
          * If the member identifier is same as that of another file scope item, it makes the file scope
          * item hidden until it is referred by using the scope resolution operator '::'.
-         *
-         * @version 0.1
-         * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-         * @date 20-07-2023
-         * @copyright Copyright (c) 2023
          */
         cout << "\nInside static member function of the class:\n\ta = " << a << "\n\t::a = "
              << ::a << endl; // a = 100, ::a = -10

@@ -29,11 +29,6 @@ int main()
 	/**
 	 * @brief The for loop below iterates the number of times same as that of the number of
 	 * salesman that the user has entered.
-	 *
-	 * @version 0.1
-	 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-	 * @date 23-05-2023
-	 * @copyright Copyright (c) 2023
 	 */
 	for (int i = 0; i < salesmen; ++i) // Iterates through the first column elements of the 2-D array
 	{
@@ -41,11 +36,6 @@ int main()
 
 		/**
 		 * @brief The for loop below inserts the sales of the number of months for each of the salesman.
-		 *
-		 * @version 0.1
-		 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-		 * @date 23-05-2023
-		 * @copyright Copyright (c) 2023
 		 */
 		for (int j = 0; j < months; ++j) // Iterates through the column elements of each row of the 2-D array
 		{
@@ -60,11 +50,6 @@ int main()
 	{
 		/**
 		 * @brief The for loop below will sum up the sales of the number of months for each salesman.
-		 *
-		 * @version 0.1
-		 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-		 * @date 23-05-2023
-		 * @copyright Copyright (c) 2023
 		 */
 		for (int l = 0; l < months; ++l) // Iterates through the column elements of each row of the 2-D array
 			sum += sales[k][l];

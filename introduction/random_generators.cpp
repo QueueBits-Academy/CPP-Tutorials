@@ -23,22 +23,12 @@ void gen_random(void)
 	/**
 	 * @brief time() function will return system time which accepts time type variable as argument,
 	 * and will be type casted to unsigned int so that no negative random number get generated.
-	 *
-	 * @version 0.1
-	 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-	 * @date 26-05-2023
-	 * @copyright Copyright (c) 2023
 	 */
 	seed_value = (unsigned)time(&t);
 
 	/**
 	 * @brief The below function accepts the seed or initial value for random number generator rand()
 	 * function as its argument.
-	 *
-	 * @version 0.1
-	 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-	 * @date 26-05-2023
-	 * @copyright Copyright (c) 2023
 	 */
 	srand(seed_value); // Seed the random number generator
 

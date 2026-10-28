@@ -16,10 +16,6 @@ using namespace std;
 /**
  * @brief The function below returns the largest element of the array.
  *
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 23-05-2023
- * @copyright Copyright (c) 2023
  ****************************************************************************
  * @param arr = The array argument in array notation.
  * @param max = Size of the array.
@@ -33,12 +29,6 @@ int largest(int arr[], int max)
 	 * @brief The for loop below iterates through all the elements of the array upto index 'max',
 	 * and compares the largest element with the next element of the array. If the next element is
 	 * greater than the largest element, then it replaces the largest element with the new one.
-	 *
-	 * @param i
-	 * @version 0.1
-	 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-	 * @date 23-05-2023
-	 * @copyright Copyright (c) 2023
 	 */
 	for (int i = 1; i < max; ++i)
 		if (arr[i] > largest)
@@ -61,11 +51,6 @@ int main()
 	/**
 	 * @brief The for loop below traverses the array elements one by one and replaces
 	 * them with the input value.
-	 *
-	 * @version 0.1
-	 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-	 * @date 23-05-2023
-	 * @copyright Copyright (c) 2023
 	 */
 	for (int i = 0; i < max; ++i)
 		cin >> arr[i];

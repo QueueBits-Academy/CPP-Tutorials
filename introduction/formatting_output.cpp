@@ -22,11 +22,6 @@ using namespace std;
  * (1) ios::left = to left justify the output; and
  * (2) ios::right = to right justify the output.
  * * ios flags may also be set with the setiosflags() function defined in the iomanip.h header file.
- *
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 26-05-2023
- * @copyright Copyright (c) 2023
  */
 void print_setw()
 {
@@ -64,11 +59,6 @@ void print_setw()
  * (4) ios::scientific = to print the decimal numbers in scientific notation; and
  * (5) ios::showpoint = to print the decimal point and trailing zeroes.
  * * ios flags may also be set with the setiosflags() function defined in the iomanip.h header file.
- *
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 26-05-2023
- * @copyright Copyright (c) 2023
  */
 void print_setprecision()
 {
@@ -144,11 +134,6 @@ void print_setprecision()
      * @brief The unset() method of 'cout' class will remove any formatting set by the previous
      * ios flags with the help of the setf() method.
      * * The resetiosflags() library function defined in the iomanip.h may also reset the formatting.
-     *
-     * @version 0.1
-     * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-     * @date 26-05-2023
-     * @copyright Copyright (c) 2023
      */
     cout.unsetf(ios ::fixed);
     cout.unsetf(ios ::uppercase);

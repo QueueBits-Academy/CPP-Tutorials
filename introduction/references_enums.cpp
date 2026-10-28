@@ -18,11 +18,6 @@ using namespace std;
  * (1) START = 1;
  * (2) PAUSE = 2;
  * (3) RESET = 3;
- *
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 19-05-2023
- * @copyright Copyright (c) 2023
  */
 enum status
 {
@@ -39,22 +34,12 @@ int main()
     /**
      * @brief The for loop outside will iterate until the test expression becomes greater than
      * the value stored in 'RESET'.
-     *
-     * @version 0.1
-     * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-     * @date 19-05-2023
-     * @copyright Copyright (c) 2023
      */
     for (int i = 1; i <= RESET; ++i)
     {
         /**
          * @brief The switch statement below will display the enum constant value alongside the reference
          * variable value. Also each case matching will update the 'stat' variable to the next enum constant value.
-         *
-         * @version 0.1
-         * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-         * @date 19-05-2023
-         * @copyright Copyright (c) 2023
          */
         switch (stat)
         {

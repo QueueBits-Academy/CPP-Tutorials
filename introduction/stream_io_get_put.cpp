@@ -25,11 +25,6 @@ int main()
 	 * @brief The do-while loop iterates over until the user inserts a newline character.
 	 * It also counts the number of characters inserted and displays them one by one in each
 	 * iteration.
-	 *
-	 * @version 0.1
-	 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-	 * @date 22-05-2023
-	 * @copyright Copyright (c) 2023
 	 */
 	do
 	{

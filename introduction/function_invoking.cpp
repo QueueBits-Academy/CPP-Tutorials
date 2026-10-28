@@ -19,10 +19,6 @@ using namespace std;
  * @brief The function below implements the call-by-value method of function invocation to change the
  * first character of a string. Although it does not make changes to the original string.
  *
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 27-05-2023
- * @copyright Copyright (c) 2023
  ****************************************************************************
  * @param n = character variable
  */
@@ -39,10 +35,6 @@ void print_value(char n) // ! Caution: it copies the original argument value int
  * @brief The function below implements the call-by-reference method of function invocation to change the
  * first character of a string. It changes the original string also.
  *
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 27-05-2023
- * @copyright Copyright (c) 2023
  ****************************************************************************
  * @param n = character reference variable
  */

@@ -17,11 +17,6 @@ using namespace std;
 /**
  * @brief A simple structure definition and structure type array declared globally
  * with array size of 10 elements.
- *
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 21-05-2023
- * @copyright Copyright (c) 2023
  */
 struct employee
 {
@@ -34,10 +29,6 @@ struct employee
  * @brief The below function displays only the user input entries in the structure type array and
  * discards the entries where no input has been taken.
  *
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 21-05-2023
- * @copyright Copyright (c) 2023
  ****************************************************************************
  * @param n[] = structure type array
  */
@@ -51,11 +42,6 @@ void display(employee n[]) // Structure type array as argument using array notat
 		 * employee number is -1 or not.
 		 * If -1, then skips the element display operation and continues with the next element of the
 		 * array. Else, the display operation is performed.
-		 *
-		 * @version 0.1
-		 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-		 * @date 21-05-2023
-		 * @copyright Copyright (c) 2023
 		 */
 		if (n[i].e_no < 0)
 			continue;
@@ -71,10 +57,6 @@ void display(employee n[]) // Structure type array as argument using array notat
  * @brief The below function takes the structure type variable's member values as input
  * and also checks whether there is any employee with the same employee number to avoid data loss.
  *
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 21-05-2023
- * @copyright Copyright (c) 2023
  ****************************************************************************
  * @param n = pointer to the first element of the structure type array
  */
@@ -90,11 +72,6 @@ label1:
 	/**
 	 * @brief Only take input if the employee number is between 1 and 10. Otherwise, jump to the
 	 * label 'label1' and ask the user again to give the employee number as input.
-	 *
-	 * @version 0.1
-	 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-	 * @date 21-05-2023
-	 * @copyright Copyright (c) 2023
 	 */
 	if (number >= 1 && number <= 10)
 	{
@@ -103,11 +80,6 @@ label1:
 		 * exists in the structure type array already. If so, then it displays the error message
 		 * and jumps to the label 'label1' above this for loop. Otherwise, the loop terminates
 		 * after 10 iterations.
-		 *
-		 * @version 0.1
-		 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-		 * @date 21-05-2023
-		 * @copyright Copyright (c) 2023
 		 */
 		for (int i = 0; i < 10; ++i)
 			if ((number - 1) == n[i].e_no)
@@ -149,11 +121,6 @@ int main()
 	 * (2) If the user input is 'n' or 'N', call display() function to print the recorded employee
 	 * details and break the loop; and
 	 * (3) If the user input is newline i.e. default, then close the loop iteration.
-	 *
-	 * @version 0.1
-	 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-	 * @date 21-05-2023
-	 * @copyright Copyright (c) 2023
 	 */
 	do
 	{

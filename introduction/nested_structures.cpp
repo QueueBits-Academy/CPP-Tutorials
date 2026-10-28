@@ -17,11 +17,6 @@ using namespace std;
 /**
  * @brief The outer structure nests the inner structure with the other data members. Every
  * object of the outer structure will have their separate nested structure object as a data member.
- *
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 27-05-2023
- * @copyright Copyright (c) 2023
  */
 struct outer // * Outer structure
 {
@@ -41,10 +36,6 @@ struct outer // * Outer structure
  * @brief The function below accesses the data members of the outer structure object as well as
  * data members of its respective inner structure object.
  *
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 27-05-2023
- * @copyright Copyright (c) 2023
  ****************************************************************************
  * @param o = structure type reference variable
  */
@@ -73,11 +64,6 @@ int main()
      * * <outer_structure_object>.<inner_structure_object>.<data_member>
      * where 'inner_structure_object' is the name of the object which is also a data member of the
      * outer structure object.
-     *
-     * @version 0.1
-     * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-     * @date 27-05-2023
-     * @copyright Copyright (c) 2023
      */
     cout << "OUTER STRUCTURE DATA MEMBERS\n"
          << "\tOuter integer = ";

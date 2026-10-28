@@ -24,11 +24,6 @@ int main()
     /**
      * @brief The do-while loop iterates over until the user's choice is 'Y' or 'y' or something else
      * other than 'N' or 'n'.
-     *
-     * @version 0.1
-     * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-     * @date 21-05-2023
-     * @copyright Copyright (c) 2023
      */
     do
     {
@@ -45,11 +40,6 @@ int main()
          * (5) "short" for short integer datatypes;
          * (6) "long" for long integer datatypes; and
          * (7) "unsigned" for unsigned integer datatypes (short and long).
-         *
-         * @version 0.1
-         * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-         * @date 21-05-2023
-         * @copyright Copyright (c) 2023
          */
         if (!strcmp(datatype, "int"))
             cout << "Maximum range of integer: " << INT_MAX << endl  // INT_MAX = maximum limit of int
@@ -83,10 +73,7 @@ int main()
 
             break;
         }
-        else
-        {
-            cout << endl;
-            continue;
-        }
+
+        cout << endl;
     } while (choice == 'Y' || choice == 'y');
 }

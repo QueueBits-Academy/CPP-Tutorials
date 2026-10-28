@@ -18,12 +18,6 @@ using namespace std;
  * and returns according to the following logic:
  * (1) If N1 > N2, then return N1 - N2; else
  * (2) If N1 < N2, then return N2 - N1.
- *
- * @return int main
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 21-05-2023
- * @copyright Copyright (c) 2023
  */
 #define Diff(N1, N2) ((N1 > N2) ? N1 - N2 : N2 - N1) // returns according to the ternary conditional operator
 

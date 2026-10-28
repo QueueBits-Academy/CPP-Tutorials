@@ -17,10 +17,6 @@ using namespace std;
  * @brief The recursive function below calls itself over and over again until the return statement
  * ends calling it and returns the product of the number with its preceding numbers.
  *
- * @version 0.1
- * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
- * @date 27-05-2023
- * @copyright Copyright (c) 2023
  ****************************************************************************
  * @param n = non-negative integer (unsigned)
  * @return the product of the number with its preceding number, i.e. if n = 3; then 3 * 2.

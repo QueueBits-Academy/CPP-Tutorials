@@ -37,11 +37,6 @@ int main()
 	 * (1) discriminant = b^2 - 4 * a * c;
 	 * (2) square_root = sqrt(discriminant)
 	 * (3) r1 and r2 = root 1 and root 2 of the quadratic equation
-	 *
-	 * @version 0.1
-	 * @author Raan_at_Git (Windows) (74211378+Raan-Saurav-Bhuyan@users.noreply.github.com)
-	 * @date 23-05-2023
-	 * @copyright Copyright (c) 2023
 	 */
 	double discriminant = pow(-sum, 2) - 4 * product, // discriminant
 		square_root = sqrt(discriminant),			  // Square root of discriminant
