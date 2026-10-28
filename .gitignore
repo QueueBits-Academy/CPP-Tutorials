@@ -26,22 +26,17 @@
 *.a
 *.lib
 
-# Executables
+# Executables: --->
 *.exe
 *.out
 *.app
 
-# Debug files
+# Debug files: --->
 *.dSYM/
 *.su
 *.idb
 *.pdb
 
-# Visual Studio Code Settings Directory
+# IDE Configuration Settings Directory: --->
 *.vscode/
-
-# Text, data, CSV and binary files
-*.txt
-*.dat
-*.csv
-*.bin
+/.idea/.gitignore
